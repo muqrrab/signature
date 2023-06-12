@@ -1,0 +1,41 @@
+{
+    "reference_signature_url": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FH1.jpg?alt=media&token=5110f6a3-434a-4f87-b4e0-a8fa44c1e172",
+    "original_signature_urls": [
+    {
+        "userid": 1,
+        "designation": "SE",
+        "fullname": "A1",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FA1.jpg?alt=media&token=04ccbf6a-30c6-48e0-8958-87d745d01001"
+    },
+    {
+        "userid": 2,
+        "designation": "CS",
+        "fullname": "A2",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FA2.jpg?alt=media&token=6edcbade-8256-466f-945e-a289fc83a6fc"
+    },
+    {
+        "userid": 3,
+        "designation": "IT",
+        "fullname": "H1",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FH1.jpg?alt=media&token=5110f6a3-434a-4f87-b4e0-a8fa44c1e172"
+    },
+    {
+        "userid": 4,
+        "designation": "IT",
+        "fullname": "H2",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FH2.jpg?alt=media&token=cf9c679a-0466-4039-963d-438f0e009fc6"
+    },
+    {
+        "userid": 5,
+        "designation": "IT",
+        "fullname": "M1",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FM1.jpg?alt=media&token=4d5d56a8-7ce0-49c1-a23e-f89a78ad8627"
+    },
+    {
+        "userid": 6,
+        "designation": "CS",
+        "fullname": "M2",
+        "signature": "https://firebasestorage.googleapis.com/v0/b/lab9-abrera-1087.appspot.com/o/Mine%2FM2.jpg?alt=media&token=1d183622-69ac-4416-8fe0-7478d6e2c2c9"
+    }
+]
+}

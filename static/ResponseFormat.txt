@@ -1,0 +1,8 @@
+{
+    "designation": "doctor",
+    "full_name": "kamran",
+    "reference_signature_url": "https://firebasestorage.googleapis.com/v0/b/images-107c9.appspot.com/o/WhatsApp%20Image%202023-06-07%20at%207.40.01%20AM.jpeg?alt=media&token=bc3e350b-781c-4e69-878f-2ccfc52d6860&_gl=1*17vhbsx*_ga*Mzk4OTc3MTk5LjE2ODU4NjQ1ODA.*_ga_CW55HF8NVT*MTY4NjEwNDYxNy42LjEuMTY4NjEwNTY5OS4wLjAuMA..",
+    "signature_url": "https://firebasestorage.googleapis.com/v0/b/images-107c9.appspot.com/o/WhatsApp%20Image%202023-06-07%20at%207.40.02%20AM.jpeg?alt=media&token=bd2c1467-15c8-4f4f-aa1b-f127573e4dfb&_gl=1*4fk4tc*_ga*Mzk4OTc3MTk5LjE2ODU4NjQ1ODA.*_ga_CW55HF8NVT*MTY4NjEwNDYxNy42LjEuMTY4NjEwNTY1Ni4wLjAuMA..",
+    "similarity_score": 0.8314578437998863,
+    "user_id": 10
+}
