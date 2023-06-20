@@ -38,7 +38,8 @@ def verify_signature(input_signature, reference_signature):
     reference_signature = normalize_features(reference_signature)
     distance = cosine(input_signature, reference_signature)
     similarity = 1 - distance
-    return similarity
+    percentage_similarity = round(similarity * 100, 2)
+    return percentage_similarity
 
 @csrf_exempt
 def verify_signature_route(request):
