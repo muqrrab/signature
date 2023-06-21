@@ -16,18 +16,19 @@ def download_image(url):
     image = np.array(bytearray(response.content), dtype=np.uint8)
     image = cv2.imdecode(image, cv2.IMREAD_COLOR)
     return image
-
+model = VGG16(weights='imagenet', include_top=False)
 def extract_features(image):
-    model = VGG16(weights='imagenet', include_top=False)
-    image = cv2.resize(image, (224, 224))
-    print('i2')
-    img_array = kimage.img_to_array(image)
-    print('i3')
-    img_array = np.expand_dims(img_array, axis=0)
-    img_array = preprocess_input(img_array)
-    features = model.predict(img_array)
-    features = features.flatten()
-    return features
+    global model
+    try:
+        image = cv2.resize(image, (224, 224))
+        img_array = kimage.img_to_array(image)
+        img_array = np.expand_dims(img_array, axis=0)
+        img_array = preprocess_input(img_array)
+        features = model.predict(img_array)
+        features = features.flatten()
+        return features
+    except Exception as e:
+        raise ValueError(f"Error extracting features: {str(e)}")
 
 def normalize_features(features):
     features = (features - np.mean(features)) / np.std(features)
