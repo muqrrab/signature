@@ -50,7 +50,7 @@ def verify_signature_route(request):
         return JsonResponse({"message": "No input data provided"}, safe=False)
 
     reference_signature_url = data['reference_signature_url']
-    original_signature_urls = data['original_signatures']
+    original_signature_urls = data['original_signature_urls']
 
     if not reference_signature_url or not original_signature_urls:
         return JsonResponse({"message": "Invalid input data"}, safe=False)
